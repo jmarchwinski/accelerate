@@ -122,3 +122,184 @@ h3 {
 .home-page {
   margin-bottom:50px;
 }
+
+/* Contact Form */
+h2.contact {
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.ninja-forms-form-wrap *{
+  float:left;
+  padding-right: 5px;
+}
+
+textarea#nf-field-3.ninja-forms-field.nf-element {
+  width: 600px;
+}
+
+div#nf-field-4-wrap.field-wrap.submit-wrap {
+  padding:40px;
+  margin-left:400px;
+}
+
+input#nf-field-4.ninja-forms-field.nf-element {
+}
+
+.submit-button {
+  color:white;
+  background-color:#45ac9d;
+  font-family: 'Montserrat';
+  padding-right:60px;
+  padding-left:60px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+/* Header */
+li.menu-item {
+  display:inline;
+  text-transform: uppercase;
+  padding-left:25px;
+}
+
+/* About Page */
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  height: 300px;
+}
+
+.custom-page-heading {
+  color:white;
+  font-family: 'Montserrat';
+  line-height:140%;
+  margin-right:190px;
+  margin-left:190px;
+  padding-top:50px;
+}
+
+.accelerate {
+  color:#45ac9d;
+}
+
+h1.about-headings {
+  color: #262626;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: normal;
+}
+
+h4.services {
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+p.pride {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+p.descriptions {
+  font-size: 16px;
+  width: 65%;
+}
+
+img.alignnone.size-full.wp-image-47372 {
+  float:left;
+}
+
+h1#content-strategy.about-headings {
+  clear:none;
+  margin-left: 250px;
+}
+
+p#p-1.descriptions {
+  margin-left: 250px;
+}
+
+img.alignnone.size-full.wp-image-47371 {
+  float:right;
+}
+
+h1#influencer-mapping.about-headings {
+  clear:none;
+}
+
+img.alignnone.size-full.wp-image-47374 {
+  float: left;
+}
+
+h1#social-media.about-headings {
+  clear:none;
+  margin-left: 250px;
+}
+
+p#p-3.descriptions {
+  margin-left: 250px;
+}
+
+img.alignnone.size-full.wp-image-47373 {
+  float:right;
+}
+
+h1#design-development.about-headings {
+  clear:none;
+}
+
+h2.interested {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Montserrat';
+  border-top: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+  text-indent:90px;
+}
+
+a#contact-button.button {
+  margin-top: -100px;
+  float: right;
+  margin-right: 150px;
+}
+
+div.services-content {
+  margin: 0px 60px 0px;
+}
+
+/* 404 Page */
+h2.error {
+  font-family: 'Montserrat';
+  color: #45ac9d;
+  font-weight: bold;
+  font-size: 32px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+p.error-p {
+  font-family: 'Montserrat';
+  width: 65%;
+  text-align: justify;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+a.blog{
+  color: #45ac9d;
+  font-weight:bold;
+}
+
+a.work{
+  color: #45ac9d;
+  font-weight:bold;
+}
+
+div#error-content {
+  width:700px;
+  margin:0 auto;
+  text-align:center;
+}
