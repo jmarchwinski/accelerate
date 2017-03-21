@@ -19,7 +19,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='homepage-hero'>
 				<?php the_content(); ?>
-				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
+				<a class="button" href="<?php echo home_url(); ?>/mailchimp-campaign">View Our Work</a>
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
@@ -61,8 +61,17 @@ get_header(); ?>
 				<?php wp_reset_query();?>
 
 
+
+
 		</div>
 	</div>
 </section>
+
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	<div id="secondary" class="widget-area" role="complementary">
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			<a class="follow-link" href="<?php the_permalink();?>">Follow Us<span>&rsaquo;</span></a>
+	</div>
+<?php endif; ?>
 
 <?php get_footer(); ?>

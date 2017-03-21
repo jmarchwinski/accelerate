@@ -57,6 +57,11 @@
   text-transform:uppercase;
 }
 
+div.blog-post {
+  float:left;
+  display:inline-block;
+}
+
 /* Case Study */
 article.case-study {
   margin:40px 0 0 0;
@@ -302,4 +307,45 @@ div#error-content {
   width:700px;
   margin:0 auto;
   text-align:center;
+}
+
+/* Twitter Module */
+li {
+  list-style:none;
+}
+
+h3.widget-title {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets {
+  float:left;
+  display:inline-block;
+  padding: 0;
+  width: 30%;
+  margin-top: 150px;
+}
+
+.widget li {
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  display: inline-block;
+  padding:20px 0px 0px 50px;
+}
+
+a.follow-link {
+  display:inline-block;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: #45ac9d;
+  text-transform: uppercase;
+  width: 50%;
+  text-indent:70px
 }
