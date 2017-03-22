@@ -347,5 +347,35 @@ a.follow-link {
   color: #45ac9d;
   text-transform: uppercase;
   width: 50%;
-  text-indent:70px
+  text-indent:75px
+}
+
+/* Newsletter */
+input.sign-up {
+  color: white;
+  background-color: #45ac9d;
+  font-family: 'Montserrat';
+  padding-right: 150px;
+  padding-left: 150px;
+  font-weight:bold;
+  border:none;
+}
+
+div.mc4wp-form-fields {
+  float:right;
+  margin-right:190px;
+}
+
+input.email {
+  padding-left:20px;
+}
+
+h3.newsletter {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-indent:0px;
+  padding-bottom: 20px;
 }
