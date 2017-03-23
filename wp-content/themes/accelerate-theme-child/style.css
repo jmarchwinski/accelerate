@@ -62,6 +62,10 @@ div.blog-post {
   display:inline-block;
 }
 
+h3#reply-title.comment-reply-title {
+  text-indent:0px;
+}
+
 /* Case Study */
 article.case-study {
   margin:40px 0 0 0;
